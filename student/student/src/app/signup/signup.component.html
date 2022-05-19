@@ -1,0 +1,69 @@
+<style>
+    .form0{
+      color: white;
+    }
+    .ben{
+      color: white;
+  
+    }
+  
+  </style>
+    
+    <body background="./assets/A.jpg" style="height: 750px;">
+    <br><br><br><br><br><br>
+    <div class="form0" align="center">
+      <h1>Enter your details</h1>
+    </div><br><br> 
+   <form>
+     <div class="ben" align="center">
+    <table>
+     <tr>
+      <td>First name:</td>
+      <td><input  name="fname" type="text"></td>
+     </tr>
+     <br>
+     <tr>
+      <td>Last name :</td>
+      <td><input name="lname" type="password"></td>
+     </tr>
+     <br>
+     <tr>
+        <td>Email :</td>
+        <td><input name="email" type="Email"></td>
+       </tr>
+       <br>
+       <tr>
+        <td>Mobile no :</td>
+        <td><input name="mobile" type="number"></td>
+       </tr>
+       <br>
+       <tr>
+        <td>Qualification :</td>
+        <td><input name="highestQualification" type="text"></td>
+       </tr>
+       <br>
+       <br>
+       <tr>
+        <td>City:</td>
+        <td><input name="city" type="text"></td>
+       </tr>
+       <tr>
+        <td>State:</td>
+        <td><input name="state" type="text"></td>
+       </tr>
+       <br>
+       <tr>
+        <td >password:</td>
+        <td><input name="password" type="password"></td>
+       </tr>
+     <br>
+     <tr>
+      <td><button [routerLink]="['/login']" type="submit" class="btn btn-primary btn-user btn-block">
+		Signup
+	</button></td>
+     </tr>
+     <br><br>
+    </table>
+     </div>
+   </form>
+  </body>

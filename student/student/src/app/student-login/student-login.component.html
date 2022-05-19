@@ -1,0 +1,57 @@
+
+<style>
+    .form0{
+      color: white;
+    }
+    .ben{
+      color: white;
+  
+    }
+  
+  </style>
+    
+  <body background="./assets/A.jpg" style="height: 750px;">
+    
+	<br><br><br><br><br><br>
+    <div class="form0" align="center">
+      <h1>Login to your Account</h1>
+    </div><br><br> 
+   <form>
+     <div class="ben" align="center">
+    <table>
+     <tr>
+      <td>User ID:</td>
+      <td><input name="id" type="text"></td>
+     </tr>
+     <br>
+     <tr>
+      <td>Password :</td>
+      <td><input name="password" type="password"></td>
+     </tr>
+     <br>
+     <tr>
+      <td><button [routerLink]="['/dashboard']" type="submit" class="btn btn-primary btn-user btn-block">
+		Login
+	</button></td>
+     </tr>
+     <br><br>
+     <tr>
+      <td><button [routerLink]="['/signup']" type="submit" class="btn btn-primary btn-user btn-block">
+		New User?
+	</button></td><br>
+	<tr><td><button [routerLink]="['/admindashboard']" type="submit" class="btn btn-primary btn-user btn-block">
+		Admin
+	</button></td></tr>
+     
+     <br><br>
+    
+     <br><br>
+     <tr>
+		<td><button [routerLink]="['/forgotpassword']" type="submit" class="btn btn-primary btn-user btn-block">
+			Forgot Password
+		</button></td>
+     </tr>
+    </table>
+     </div>
+   </form>
+  </body>
